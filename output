@@ -1,0 +1,343 @@
+2026-01-29 19:34:05,044 - CUTE_DSL - INFO - [__call__] - DSLSingletonMeta __call__ for <class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>
+2026-01-29 19:34:05,965 - CUTE_DSL - INFO - [__init__] - Initializing CUTE_DSL DSL
+2026-01-29 19:34:05,965 - CUTE_DSL - DEBUG - [__init__] - Logger initialized for CUTE_DSL
+2026-01-29 19:34:05,965 - CUTE_DSL - INFO - [__call__] - Active DSL singleton instances: {<class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>}
+2026-01-29 19:34:05,965 - CUTE_DSL - INFO - [__call__] - DSLSingletonMeta __call__ for <class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>
+2026-01-29 19:34:05,965 - CUTE_DSL - INFO - [__call__] - Active DSL singleton instances: {<class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>}
+2026-01-29 19:34:06,036 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,036 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,047 - CUTE_DSL - INFO - [__call__] - DSLSingletonMeta __call__ for <class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>
+2026-01-29 19:34:06,047 - CUTE_DSL - INFO - [__call__] - Active DSL singleton instances: {<class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>}
+2026-01-29 19:34:06,052 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,052 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,058 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,058 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,059 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,059 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,069 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,076 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,077 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,077 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,078 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,078 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,078 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,079 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,079 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,082 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,082 - CUTE_DSL - INFO - [jit_runner] - jit_runner
+2026-01-29 19:34:06,082 - CUTE_DSL - INFO - [initialize_cuda_context] - cuInit 0
+2026-01-29 19:34:06,083 - CUTE_DSL - INFO - [get_device] - cuDeviceGet 0
+2026-01-29 19:34:06,083 - CUTE_DSL - INFO - [get_device] - <CUdevice 0> <-- cuDeviceGet
+2026-01-29 19:34:06,083 - CUTE_DSL - INFO - [initialize_cuda_context] - cuCtxCreate 0 <CUdevice 0>
+2026-01-29 19:34:06,235 - CUTE_DSL - INFO - [initialize_cuda_context] - <CUcontext 0x2784b20> <-- cuCtxCreate
+2026-01-29 19:34:06,235 - CUTE_DSL - INFO - [__call__] - DSLSingletonMeta __call__ for <class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>
+2026-01-29 19:34:06,235 - CUTE_DSL - INFO - [__call__] - Active DSL singleton instances: {<class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>}
+2026-01-29 19:34:06,235 - CUTE_DSL - INFO - [run_preprocessor] - Started preprocessing [run_hello_kernel]
+2026-01-29 19:34:06,235 - CUTE_DSL - INFO - [transform_function] - ASTPreprocessor Transforming function [run_hello_kernel]
+2026-01-29 19:34:06,236 - CUTE_DSL - INFO - [exec] - ASTPreprocessor Executing transformed code for function [run_hello_kernel]
+2026-01-29 19:34:06,237 - CUTE_DSL - INFO - [mangle_name] - Final mangled function name: cutlass_run_hello_kernel
+2026-01-29 19:34:06,237 - CUTE_DSL - DEBUG - [_func] - Generating MLIR for function 'cutlass_run_hello_kernel'
+2026-01-29 19:34:06,267 - CUTE_DSL - DEBUG - [generate_mlir_function_types] - Execution Arguments: 
+2026-01-29 19:34:06,267 - CUTE_DSL - DEBUG - [generate_mlir_function_types] - Types: 
+2026-01-29 19:34:06,268 - CUTE_DSL - INFO - [_build_gpu_module] - self : <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>
+2026-01-29 19:34:06,268 - CUTE_DSL - INFO - [_build_gpu_module] - Building GPU module for CUTE_DSL
+2026-01-29 19:34:06,272 - CUTE_DSL - INFO - [_build_gpu_module] - GPU module: "gpu.module"() <{sym_name = "kernels"}> ({
+}) : () -> ()
+2026-01-29 19:34:06,273 - CUTE_DSL - DEBUG - [build_ir_module] - Generated Function OP ["func.func"() <{function_type = () -> i32, sym_name = "cutlass_run_hello_kernel"}> ({
+}) {llvm.emit_c_interface} : () -> ()]
+2026-01-29 19:34:06,275 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution args: 
+2026-01-29 19:34:06,275 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution kwargs: 
+2026-01-29 19:34:06,301 - CUTE_DSL - INFO - [__call__] - DSLSingletonMeta __call__ for <class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>
+2026-01-29 19:34:06,301 - CUTE_DSL - INFO - [__call__] - Active DSL singleton instances: {<class 'cutlass.cutlass_dsl.cutlass.CuTeDSL'>: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>}
+2026-01-29 19:34:06,301 - CUTE_DSL - INFO - [run_preprocessor] - Started preprocessing [hello_kernel]
+2026-01-29 19:34:06,302 - CUTE_DSL - INFO - [transform_function] - ASTPreprocessor Transforming function [hello_kernel]
+2026-01-29 19:34:06,304 - CUTE_DSL - INFO - [exec] - ASTPreprocessor Executing transformed code for function [hello_kernel]
+2026-01-29 19:34:06,306 - CUTE_DSL - INFO - [mangle_name] - Final mangled function name: cutlass_hello_kernel
+2026-01-29 19:34:06,306 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Processing GPU kernel call in [@jit + @kernel] mode
+2026-01-29 19:34:06,306 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_operands: 
+2026-01-29 19:34:06,306 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_arg_types: 
+2026-01-29 19:34:06,306 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_arg_attrs: 
+2026-01-29 19:34:06,306 - CUTE_DSL - INFO - [_enter_gpu_module] - self: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>
+2026-01-29 19:34:06,306 - CUTE_DSL - INFO - [_enter_gpu_module] - Entering GPU module for CUTE_DSL
+2026-01-29 19:34:06,307 - CUTE_DSL - INFO - [_enter_gpu_module] - GPU module: "gpu.module"() <{sym_name = "kernels"}> ({
+^bb0:
+}) : () -> ()
+2026-01-29 19:34:06,307 - CUTE_DSL - DEBUG - [kernel_wrapper] - Generating device kernel
+2026-01-29 19:34:06,307 - CUTE_DSL - DEBUG - [generate_func_op] - []
+2026-01-29 19:34:06,308 - CUTE_DSL - DEBUG - [kernel_wrapper] - Kernel function op: "cuda.kernel"() <{arg_attrs = [], function_type = () -> (), sym_name = "kernel_cutlass_hello_kernel_0"}> ({
+}) {cu_attrs = {max_dynamic_shared_size_bytes = #cuda.dev_max_shared_memory_optin, non_portable_cluster_size_allowed = 1 : i32}} : () -> ()
+2026-01-29 19:34:06,308 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution args: 
+2026-01-29 19:34:06,308 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution kwargs: 
+2026-01-29 19:34:06,308 - CUTE_DSL - DEBUG - [kernel_wrapper] - IR arguments - args: [] ; kwargs: {}
+2026-01-29 19:34:06,317 - CUTE_DSL - DEBUG - [if_selector] - pred [?] write_args [[]]
+2026-01-29 19:34:06,317 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ===--- Values UNPack
+2026-01-29 19:34:06,317 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,317 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,317 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,318 - CUTE_DSL - DEBUG - [scf_execute_dynamic] - Generated scf.if 
+["scf.if"(%4) ({
+^bb0:
+}, {
+}) : (i1) -> ()]
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ===--- Values Pack (0)
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [pack_from_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ------------------ 
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ===--- Values UNPack
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,321 - CUTE_DSL - DEBUG - [scf_execute_dynamic] - Completed scf.if 
+["scf.if"(%4) ({
+  "cute.print"() <{fmt = "Hello cute kernel!\0A\0A"}> : () -> ()
+  "scf.yield"() : () -> ()
+}, {
+}) : (i1) -> ()]
+2026-01-29 19:34:06,322 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ===--- Values Pack (0)
+2026-01-29 19:34:06,322 - CUTE_DSL - DEBUG - [pack_from_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,322 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ------------------ 
+2026-01-29 19:34:06,324 - CUTE_DSL - DEBUG - [kernel_wrapper] - Kernel result: KernelReturns(kernel_func_ret=None, launch_op_ret=None), kernel name: kernel_cutlass_hello_kernel_0
+2026-01-29 19:34:06,325 - CUTE_DSL - INFO - [to_str] - `cute.compile` CompileOptions: options=opt-level=3  enable-assertions=false preserve-line-info=true dump-cubin-path='./ir_output/cutlass_run_hello_kernel' dump-ptx-path='./ir_output/cutlass_run_hello_kernel'     
+2026-01-29 19:34:06,553 - CUTE_DSL - DEBUG - [get_module_hash] - Bytecode=[4d4cef520d4d4c495232302e302e3067697400015b110105090d1115191d2701032303032305050b2707032b09072f33370b0d3b3f43474b270d074f53570f055b5f0387631101610f0f0b070f0f0b0b0f0f0b130b13130b0b0b0b0f0b13130f0f130b2b0b1b0b0b0b0b0b430b0b0b130f0b170b0b0f0b130b0389010b0f0f130f0b0b07358135020a041d0d1b1d0d2d05310f1101011d4d4f05330535110301110105053703031907053917051d0103031f07053b0d05053d053f1d292b054117052109170511011101811101090b0f033509150309393b410743074547054303053d613f13054505470549054b054d2301071920000000010000000100000001010d07054f170515231d5355055117573a0d25055305551d5d5f05571705191123637564612e6465765f6d61785f7368617265645f6d656d6f72795f6f7074696e0001020201020405010301050101010921637564612e73747265616d0021637564612e6c61756e63685f6366673c6d61785f6174747273203d20323e0021637564612e726573756c740004f2020501510117010704ca020301090350010307048b0301051951033705070475030b1d1d420b0703011f420b07030121420b0703010b42010903010f46510b030905010723140103090b041703010909405b0d250001011b00010551011d0f0704b7031535094027110b42010903010b42010b0303110603030b03030d0601030303010b42011303010b420115030113460317030d11090b0b070b0b0b0515460319030f030d1106030301030f17040303110b420109030107040103130603010501001a0d59492b02023f491b1719453d135537332d2b3d1113510d072929290f2115250b0b0d130d0f0f090b0b0d0b0b09116275696c74696e006770750066756e6300637574650061726974680063756461006e76766d00736366006d6f64756c650072657475726e007072696e7400636f6e7374616e7400657874736900636d70690063617374006c61756e63685f6366672e637265617465006c61756e63685f65780072657475726e5f69665f6572726f72006b65726e656c00726561642e7074782e737265672e7469642e7800726561642e7074782e737265672e7469642e7900726561642e7074782e737265672e7469642e7a006966007969656c64002f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f67656d6d2e7079003c6d6f64756c653e006b65726e656c73006b65726e656c5f6375746c6173735f68656c6c6f5f6b65726e656c5f30006770752e636f6e7461696e65725f6d6f64756c65006c6c766d2e656d69745f635f696e74657266616365006375746c6173735f72756e5f68656c6c6f5f6b65726e656c00416464656420636f6e7465787420666f72206b65726e656c0a0a00637574652e7072696e74662822416464656420636f6e7465787420666f72206b65726e656c5c6e22290063755f6174747273006d61785f64796e616d69635f7368617265645f73697a655f6279746573006e6f6e5f706f727461626c655f636c75737465725f73697a655f616c6c6f77656400637574652e6b65726e656c006770752e6b65726e656c006e76766d2e7265716e74696400746964782c205f2c205f203d20637574652e617263682e7468726561645f6964782829007265735f76616c203d206f70286c68735f76616c2c207268735f76616c29002f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f76656e762f6c69622f707974686f6e332e31322f736974652d7061636b616765732f6e76696469615f6375746c6173735f64736c2f707974686f6e5f7061636b616765732f6375746c6173732f626173655f64736c2f747970696e672e70790048656c6c6f2063757465206b65726e656c210a0a00637574652e7072696e7466282248656c6c6f2063757465206b65726e656c215c6e22290008551b05010107010f010b93014b011503010309031103b30d012101012301034b032f031303310901013301435554455f44534c46616c73655472756546616c7365313046616c7365547275655472756546616c73652e2f69725f6f757470757446616c736546616c736546616c736546616c7365736d5f39306146616c736546616c736546616c736546616c73652f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f76656e762f6c69622f707974686f6e332e31322f736974652d7061636b616765732f6e76696469615f6375746c6173735f64736c2f6c69622f6c6962637564615f6469616c6563745f72756e74696d652e736f46616c736546616c73656f70742d6c6576656c3d332020656e61626c652d617373657274696f6e733d66616c73652070726573657276652d6c696e652d696e666f3d747275652064756d702d637562696e2d706174683d272e2f69725f6f75747075742f6375746c6173735f72756e5f68656c6c6f5f6b65726e656c272064756d702d7074782d706174683d272e2f69725f6f75747075742f6375746c6173735f72756e5f68656c6c6f5f6b65726e656c272020202020]
+2026-01-29 19:34:06,553 - CUTE_DSL - DEBUG - [get_module_hash] - Version=[84571a0ccf3f85fbe4681c25581fc8ead72b03e94ae67cbdc6e24ec0e5291855]
+2026-01-29 19:34:06,553 - CUTE_DSL - INFO - [get_module_hash] - Function=[cutlass_run_hello_kernel] Computed module_hash=[30baaa795e990546f061d26ed067a6cd25ea9164d2139ff3a997d17b3872f971]
+2026-01-29 19:34:06,553 - CUTE_DSL - INFO - [to_str] - `cute.compile` CompileOptions: options=opt-level=3  enable-assertions=false preserve-line-info=true dump-cubin-path='./ir_output/cutlass_run_hello_kernel' dump-ptx-path='./ir_output/cutlass_run_hello_kernel'     
+2026-01-29 19:34:06,554 - CUTE_DSL - WARNING - [print_warning] - Warning: CUDA_TOOLKIT_PATH environment variable is not set. Cannot set toolkitPath.
+/home/muursep1/cutedsl-learning/venv/lib/python3.12/site-packages/nvidia_cutlass_dsl/python_packages/cutlass/base_dsl/dsl.py:412: UserWarning: CUDA_TOOLKIT_PATH environment variable is not set. Cannot set toolkitPath.
+  warnings.warn(message, UserWarning)
+2026-01-29 19:34:06,555 - CUTE_DSL - DEBUG - [compile_and_cache] - Using pipeline = builtin.module(cute-to-nvvm{cubin-format=bin opt-level=3  enable-assertions=false preserve-line-info=true dump-cubin-path='./ir_output/cutlass_run_hello_kernel' dump-ptx-path='./ir_output/cutlass_run_hello_kernel'      cubin-chip=sm_90a  enable-cuda-dialect=true cuda-dialect-external-module=true})
+2026-01-29 19:34:06,555 - CUTE_DSL - INFO - [compile_and_cache] - JIT cache miss function=[cutlass_run_hello_kernel] module_hash=[30baaa795e990546f061d26ed067a6cd25ea9164d2139ff3a997d17b3872f971]
+2026-01-29 19:34:06,611 - CUTE_DSL - INFO - [mangle_name] - Final mangled function name: cutlass_run_hello_kernel
+2026-01-29 19:34:06,611 - CUTE_DSL - DEBUG - [_func] - Generating MLIR for function 'cutlass_run_hello_kernel'
+2026-01-29 19:34:06,612 - CUTE_DSL - DEBUG - [generate_mlir_function_types] - Execution Arguments: 
+2026-01-29 19:34:06,612 - CUTE_DSL - DEBUG - [generate_mlir_function_types] - Types: 
+2026-01-29 19:34:06,612 - CUTE_DSL - INFO - [_build_gpu_module] - self : <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>
+2026-01-29 19:34:06,612 - CUTE_DSL - INFO - [_build_gpu_module] - Building GPU module for CUTE_DSL
+2026-01-29 19:34:06,612 - CUTE_DSL - INFO - [_build_gpu_module] - GPU module: "gpu.module"() <{sym_name = "kernels"}> ({
+}) : () -> ()
+2026-01-29 19:34:06,612 - CUTE_DSL - DEBUG - [build_ir_module] - Generated Function OP ["func.func"() <{function_type = () -> i32, sym_name = "cutlass_run_hello_kernel"}> ({
+}) {llvm.emit_c_interface} : () -> ()]
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution args: 
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution kwargs: 
+2026-01-29 19:34:06,613 - CUTE_DSL - INFO - [mangle_name] - Final mangled function name: cutlass_hello_kernel
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Processing GPU kernel call in [@jit + @kernel] mode
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_operands: 
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_arg_types: 
+2026-01-29 19:34:06,613 - CUTE_DSL - DEBUG - [generate_kernel_operands_and_types] - Final kernel_arg_attrs: 
+2026-01-29 19:34:06,613 - CUTE_DSL - INFO - [_enter_gpu_module] - self: <cutlass.cutlass_dsl.cutlass.CuTeDSL object at 0x1468a76ac110>
+2026-01-29 19:34:06,614 - CUTE_DSL - INFO - [_enter_gpu_module] - Entering GPU module for CUTE_DSL
+2026-01-29 19:34:06,614 - CUTE_DSL - INFO - [_enter_gpu_module] - GPU module: "gpu.module"() <{sym_name = "kernels"}> ({
+^bb0:
+}) : () -> ()
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [kernel_wrapper] - Generating device kernel
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [generate_func_op] - []
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [kernel_wrapper] - Kernel function op: "cuda.kernel"() <{arg_attrs = [], function_type = () -> (), sym_name = "kernel_cutlass_hello_kernel_0"}> ({
+}) {cu_attrs = {max_dynamic_shared_size_bytes = #cuda.dev_max_shared_memory_optin, non_portable_cluster_size_allowed = 1 : i32}} : () -> ()
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution args: 
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [generate_execution_arguments] - execution kwargs: 
+2026-01-29 19:34:06,614 - CUTE_DSL - DEBUG - [kernel_wrapper] - IR arguments - args: [] ; kwargs: {}
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [if_selector] - pred [?] write_args [[]]
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ===--- Values UNPack
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [scf_execute_dynamic] - Generated scf.if 
+["scf.if"(%4) ({
+^bb0:
+}, {
+}) : (i1) -> ()]
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ===--- Values Pack (0)
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [pack_from_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ------------------ 
+2026-01-29 19:34:06,615 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ===--- Values UNPack
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [unpack_to_irvalue] - ------------------ 
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [scf_execute_dynamic] - Completed scf.if 
+["scf.if"(%4) ({
+  "cute.print"() <{fmt = "Hello cute kernel!\0A\0A"}> : () -> ()
+  "scf.yield"() : () -> ()
+}, {
+}) : (i1) -> ()]
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ===--- Values Pack (0)
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [pack_from_irvalue] - treedef: PyTreeDef(node_type=NodeType(name="<class 'list'>", to_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88b80>, from_iterable=<function register_default_node_types.<locals>.<lambda> at 0x1468a7b88c20>), node_metadata=namespace(length=0), child_treedefs=())
+2026-01-29 19:34:06,616 - CUTE_DSL - DEBUG - [pack_from_irvalue] - ------------------ 
+2026-01-29 19:34:06,617 - CUTE_DSL - DEBUG - [kernel_wrapper] - Kernel result: KernelReturns(kernel_func_ret=None, launch_op_ret=None), kernel name: kernel_cutlass_hello_kernel_0
+2026-01-29 19:34:06,618 - CUTE_DSL - INFO - [to_str] - `cute.compile` CompileOptions: options=opt-level=3  enable-assertions=false preserve-line-info=false       
+2026-01-29 19:34:06,618 - CUTE_DSL - DEBUG - [get_module_hash] - Bytecode=[4d4cef520d4d4c495232302e302e3067697400015b110105090d1115191d2701032303032305050b2707032b09072f33370b0d3b3f43474b270d074f53570f055b5f03856111015f070f070b0f0f0b0f0f0b130b130b0b0b0b0f0b130b130f0f130b2b0b1b0b0b0b0b0b430b0b0b130f0b170b0b0f0b130b0389010b0f0f130f0b0b0735813502f2031f1d292b0f05311101011d4b4d0533110301110105053503031705053703031b0505390d05053b053d1d2527053f170721090541170711011101811101090b0d03330913030937393f0541054345054303053b5f3d11054505470549054b054d2301071920000000010000000100000001010d07054f170715231d5153055117553a0d25055305551d5b5d05571707191123637564612e6465765f6d61785f7368617265645f6d656d6f72795f6f7074696e0001020201020405010301050101010921637564612e73747265616d0021637564612e6c61756e63685f6366673c6d61785f6174747273203d20323e0021637564612e726573756c740004f2020501510115010704ca020301090350010307048b0301051951033505070475030b1d1d420b0703011f420b07030121420b0703010b42010903010f464f0b030905010723140103090b04170301090940590d250001011b0001055101190f0704b7031535094023110b42010903010b42010b0303110603030b03030d0601030303010b42011303010b420115030113460317030d11090b0b070b0b0b0515460319030f030d1106030301030f17040303110b420109030107040103130603010501001a0d59492b02023f491b1719453d13135537332d2b3d11510d072929290f2115250b0b0d130d0f0f090b0b0d0b0b09116275696c74696e006770750066756e6300637574650061726974680063756461006e76766d00736366006d6f64756c650072657475726e007072696e7400636f6e7374616e7400657874736900636d70690063617374006c61756e63685f6366672e637265617465006c61756e63685f65780072657475726e5f69665f6572726f72006b65726e656c00726561642e7074782e737265672e7469642e7800726561642e7074782e737265672e7469642e7900726561642e7074782e737265672e7469642e7a006966007969656c64002f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f67656d6d2e7079006b65726e656c73006b65726e656c5f6375746c6173735f68656c6c6f5f6b65726e656c5f30006770752e636f6e7461696e65725f6d6f64756c65006c6c766d2e656d69745f635f696e74657266616365006375746c6173735f72756e5f68656c6c6f5f6b65726e656c00416464656420636f6e7465787420666f72206b65726e656c0a0a00637574652e7072696e74662822416464656420636f6e7465787420666f72206b65726e656c5c6e2229003c6d6f64756c653e0063755f6174747273006d61785f64796e616d69635f7368617265645f73697a655f6279746573006e6f6e5f706f727461626c655f636c75737465725f73697a655f616c6c6f77656400637574652e6b65726e656c006770752e6b65726e656c006e76766d2e7265716e74696400746964782c205f2c205f203d20637574652e617263682e7468726561645f6964782829007265735f76616c203d206f70286c68735f76616c2c207268735f76616c29002f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f76656e762f6c69622f707974686f6e332e31322f736974652d7061636b616765732f6e76696469615f6375746c6173735f64736c2f707974686f6e5f7061636b616765732f6375746c6173732f626173655f64736c2f747970696e672e70790048656c6c6f2063757465206b65726e656c210a0a00637574652e7072696e7466282248656c6c6f2063757465206b65726e656c215c6e22290008551b05010107010d010b8f0149011303010309030f03af0d011d01011f010343032d0311032f0901013101435554455f44534c46616c73655472756546616c7365313046616c7365547275655472756546616c73652e2f69725f6f757470757446616c736546616c736546616c736546616c7365736d5f39306146616c736546616c736546616c736546616c73652f686f6d652f6d757572736570312f6375746564736c2d6c6561726e696e672f76656e762f6c69622f707974686f6e332e31322f736974652d7061636b616765732f6e76696469615f6375746c6173735f64736c2f6c69622f6c6962637564615f6469616c6563745f72756e74696d652e736f46616c736546616c73656f70742d6c6576656c3d332020656e61626c652d617373657274696f6e733d66616c73652070726573657276652d6c696e652d696e666f3d66616c736520202020202020]
+2026-01-29 19:34:06,618 - CUTE_DSL - DEBUG - [get_module_hash] - Version=[84571a0ccf3f85fbe4681c25581fc8ead72b03e94ae67cbdc6e24ec0e5291855]
+2026-01-29 19:34:06,618 - CUTE_DSL - INFO - [get_module_hash] - Function=[cutlass_run_hello_kernel] Computed module_hash=[1bcb02127b8ca10bebdbd2683e11824615af466a73c2e9910b944b85ae1ce4bd]
+2026-01-29 19:34:06,618 - CUTE_DSL - INFO - [to_str] - `cute.compile` CompileOptions: options=opt-level=3  enable-assertions=false preserve-line-info=false       
+2026-01-29 19:34:06,618 - CUTE_DSL - WARNING - [print_warning] - Warning: CUDA_TOOLKIT_PATH environment variable is not set. Cannot set toolkitPath.
+2026-01-29 19:34:06,618 - CUTE_DSL - DEBUG - [compile_and_cache] - Using pipeline = builtin.module(cute-to-nvvm{cubin-format=bin opt-level=3  enable-assertions=false preserve-line-info=false        cubin-chip=sm_90a  enable-cuda-dialect=true cuda-dialect-external-module=true})
+2026-01-29 19:34:06,618 - CUTE_DSL - INFO - [compile_and_cache] - JIT cache miss function=[cutlass_run_hello_kernel] module_hash=[1bcb02127b8ca10bebdbd2683e11824615af466a73c2e9910b944b85ae1ce4bd]
+2026-01-29 19:34:06,652 - CUTE_DSL - INFO - [dump_cache_to_path] - JIT cache : dumping [CUTE_DSL] file=[1bcb02127b8ca10bebdbd2683e11824615af466a73c2e9910b944b85ae1ce4bd]
+2026-01-29 19:34:06,653 - CUTE_DSL - DEBUG - [save_ir] - Generated IR saved into /tmp/muursep1/cutlass_python_cache/cute_dsl_1bcb02127b8ca10bebdbd2683e11824615af466a73c2e9910b944b85ae1ce4bd.mlir
+2026-01-29 19:34:06,653 - CUTE_DSL - DEBUG - [run_compiled_program] - Creating default executor.
+==================================================
+1. PYTHON SOURCE
+==================================================
+@cute.kernel
+def hello_kernel():
+    tidx, _, _ = cute.arch.thread_idx()
+    if tidx == 0:
+        cute.printf("Hello cute kernel!\n")
+
+
+==================================================
+2. PYTHON AST
+==================================================
+Module(
+  body=[
+    FunctionDef(
+      name='hello_kernel',
+      args=arguments(
+        posonlyargs=[],
+        args=[],
+        kwonlyargs=[],
+        kw_defaults=[],
+        defaults=[]),
+      body=[
+        Assign(
+          targets=[
+            Tuple(
+              elts=[
+                Name(id='tidx', ctx=Store()),
+                Name(id='_', ctx=Store()),
+                Name(id='_', ctx=Store())],
+              ctx=Store())],
+          value=Call(
+            func=Attribute(
+              value=Attribute(
+                value=Name(id='cute', ctx=Load()),
+                attr='arch',
+                ctx=Load()),
+              attr='thread_idx',
+              ctx=Load()),
+            args=[],
+            keywords=[])),
+        If(
+          test=Compare(
+            left=Name(id='tidx', ctx=Load()),
+            ops=[
+              Eq()],
+            comparators=[
+              Constant(value=0)]),
+          body=[
+            Expr(
+              value=Call(
+                func=Attribute(
+                  value=Name(id='cute', ctx=Load()),
+                  attr='printf',
+                  ctx=Load()),
+                args=[
+                  Constant(value='Hello cute kernel!\n')],
+                keywords=[]))],
+          orelse=[])],
+      decorator_list=[
+        Attribute(
+          value=Name(id='cute', ctx=Load()),
+          attr='kernel',
+          ctx=Load())],
+      type_params=[])],
+  type_ignores=[])
+
+//===--- ------ Generated IR ------ ---====
+
+module attributes {gpu.container_module} {
+  gpu.module @kernels {
+    cuda.kernel @kernel_cutlass_hello_kernel_0() attributes {cu_attrs = {max_dynamic_shared_size_bytes = #cuda.dev_max_shared_memory_optin, non_portable_cluster_size_allowed = 1 : i32}, cute.kernel, gpu.kernel, nvvm.reqntid = array<i32: 32, 1, 1>} {
+      %0 = nvvm.read.ptx.sreg.tid.x : i32 loc(#loc8)
+      %1 = nvvm.read.ptx.sreg.tid.y : i32 loc(#loc8)
+      %2 = nvvm.read.ptx.sreg.tid.z : i32 loc(#loc8)
+      %c0_i32 = arith.constant 0 : i32 loc(#loc6)
+      %3 = arith.cmpi eq, %0, %c0_i32 : i32 loc(#loc9)
+      scf.if %3 {
+        cute.print("Hello cute kernel!\0A\0A", ) :  loc(#loc10)
+      } loc(#loc6)
+      return loc(#loc6)
+    } loc(#loc7)
+  } loc(#loc6)
+  func.func @cutlass_run_hello_kernel() -> i32 attributes {llvm.emit_c_interface} {
+    cute.print("Added context for kernel\0A\0A", ) :  loc(#loc11)
+    %c0_i32 = arith.constant 0 : i32 loc(#loc6)
+    %c0_i64 = arith.constant 0 : i64 loc(#loc6)
+    %0 = cuda.cast %c0_i64 : i64 -> !cuda.stream loc(#loc7)
+    %1 = arith.extsi %c0_i32 : i32 to i64 loc(#loc6)
+    %c32_i32 = arith.constant 32 : i32 loc(#loc6)
+    %c1_i32 = arith.constant 1 : i32 loc(#loc6)
+    %2 = cuda.launch_cfg.create<max_attrs = 2 : i32> (blockDim = (%c32_i32, %c1_i32, %c1_i32), dynamicSmemBytes = %1, gridDim = (%c1_i32, %c1_i32, %c1_i32), stream = %0) : i32, i32, i32, i64, i32, i32, i32, !cuda.stream -> !cuda.launch_cfg<max_attrs = 2> loc(#loc7)
+    %3 = cuda.launch_ex @kernels::@kernel_cutlass_hello_kernel_0<%2> () : !cuda.launch_cfg<max_attrs = 2>, () -> !cuda.result loc(#loc7)
+    %4 = cuda.cast %3 : !cuda.result -> i32 loc(#loc7)
+    cuda.return_if_error %4 : i32 loc(#loc7)
+    %c0_i32_0 = arith.constant 0 : i32 loc(#loc6)
+    return %c0_i32_0 : i32 loc(#loc6)
+  } loc(#loc6)
+} loc(#loc6)
+#loc = loc("/home/muursep1/cutedsl-learning/gemm.py":14:0)
+#loc1 = loc("/home/muursep1/cutedsl-learning/gemm.py":8:0)
+#loc2 = loc("/home/muursep1/cutedsl-learning/gemm.py":10:17)
+#loc3 = loc("/home/muursep1/cutedsl-learning/venv/lib/python3.12/site-packages/nvidia_cutlass_dsl/python_packages/cutlass/base_dsl/typing.py":846:18)
+#loc4 = loc("/home/muursep1/cutedsl-learning/gemm.py":12:8)
+#loc5 = loc("/home/muursep1/cutedsl-learning/gemm.py":16:4)
+#loc6 = loc("<module>"(#loc))
+#loc7 = loc("<module>"(#loc1))
+#loc8 = loc("tidx, _, _ = cute.arch.thread_idx()"(#loc2))
+#loc9 = loc("res_val = op(lhs_val, rhs_val)"(#loc3))
+#loc10 = loc("cute.printf(\22Hello cute kernel!\\n\22)"(#loc4))
+#loc11 = loc("cute.printf(\22Added context for kernel\\n\22)"(#loc5))
+
+//===--- --- End of Generated IR -- ---====
+
+
+==================================================
+4. MLIR IR
+==================================================
+None
+
+==================================================
+5. PTX ASSEMBLY
+==================================================
+./ir_output/cutlass_run_hello_kernel.sm_90a.ptx
+
+==================================================
+6. EXECUTION OUTPUT
+==================================================
+
+//===--- ------ Generated IR ------ ---====
+
+module attributes {gpu.container_module} {
+  gpu.module @kernels {
+    cuda.kernel @kernel_cutlass_hello_kernel_0() attributes {cu_attrs = {max_dynamic_shared_size_bytes = #cuda.dev_max_shared_memory_optin, non_portable_cluster_size_allowed = 1 : i32}, cute.kernel, gpu.kernel, nvvm.reqntid = array<i32: 32, 1, 1>} {
+      %0 = nvvm.read.ptx.sreg.tid.x : i32
+      %1 = nvvm.read.ptx.sreg.tid.y : i32
+      %2 = nvvm.read.ptx.sreg.tid.z : i32
+      %c0_i32 = arith.constant 0 : i32
+      %3 = arith.cmpi eq, %0, %c0_i32 : i32
+      scf.if %3 {
+        cute.print("Hello cute kernel!\0A\0A", ) : 
+      }
+      return
+    }
+  }
+  func.func @cutlass_run_hello_kernel() -> i32 attributes {llvm.emit_c_interface} {
+    cute.print("Added context for kernel\0A\0A", ) : 
+    %c0_i32 = arith.constant 0 : i32
+    %c0_i64 = arith.constant 0 : i64
+    %0 = cuda.cast %c0_i64 : i64 -> !cuda.stream
+    %1 = arith.extsi %c0_i32 : i32 to i64
+    %c32_i32 = arith.constant 32 : i32
+    %c1_i32 = arith.constant 1 : i32
+    %2 = cuda.launch_cfg.create<max_attrs = 2 : i32> (blockDim = (%c32_i32, %c1_i32, %c1_i32), dynamicSmemBytes = %1, gridDim = (%c1_i32, %c1_i32, %c1_i32), stream = %0) : i32, i32, i32, i64, i32, i32, i32, !cuda.stream -> !cuda.launch_cfg<max_attrs = 2>
+    %3 = cuda.launch_ex @kernels::@kernel_cutlass_hello_kernel_0<%2> () : !cuda.launch_cfg<max_attrs = 2>, () -> !cuda.result
+    %4 = cuda.cast %3 : !cuda.result -> i32
+    cuda.return_if_error %4 : i32
+    %c0_i32_0 = arith.constant 0 : i32
+    return %c0_i32_0 : i32
+  }
+}
+
+//===--- --- End of Generated IR -- ---====
+
+Added context for kernel
+
+Hello cute kernel!
